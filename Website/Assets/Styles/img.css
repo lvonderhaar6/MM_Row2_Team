@@ -1,0 +1,16 @@
+/*
+	Lulu's Local Eatery
+		Author: Row 2
+		Date: 2/23/2019
+	
+		Filename: img.css
+		Supporting files:
+*/
+
+/*Gallery Home*/
+.home {
+	float: left;
+	border-radius: 10px;
+	display: block;
+	width:33.3%;
+}

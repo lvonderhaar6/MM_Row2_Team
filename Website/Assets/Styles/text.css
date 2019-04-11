@@ -1,0 +1,50 @@
+/*
+	Vitit Bussum style sheet
+		Author: Row 2
+		Date: 2/23/2019
+	
+		Filename: main.css
+		Supporting files:
+*/
+
+/* H1, H2, p */
+h1 {
+	margin: 0px;
+	margin-top: 0px;
+}
+
+h2 {
+	margin-top: 0px;
+	margin: 0px;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	margin-top: 0px;
+	margin: 0px;
+	margin-bottom: 0.2em;
+}
+
+
+
+.quote {
+	text-align: center;
+	font-style: italic;
+}
+
+
+p.standardtext {
+	margin-left: 1px;
+	margin-top: 0px;
+	margin-bottom: 0.5em;
+	margin-right: 5px;
+}
+
+p.textarticle {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+

@@ -1,0 +1,170 @@
+/*
+	Vitit Bussum style sheet
+		Author: Row 2
+		Date: 2/23/2019
+	
+		Filename: main.css
+		Supporting files:
+*/
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+/* Body */
+body {
+	padding: 0px;
+	background-image: url(../Images/MBImage.png);
+	height: 100%;
+	margin: auto;
+	min-width: 850px;
+	min-height: 869px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* header */
+header {
+	background-image: url(../Images/BBanner.png);
+	height: 100px;
+	text-align: center;
+	color: rgb(254, 129, 0);
+	font-size: 30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* nav */
+nav {
+	background-color: red;
+	text-align: center;
+	width: 960px;
+	
+}
+
+ul.topbar {
+    list-style-type: none;
+	text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(254, 129, 0);
+}
+
+li {
+    float: left;
+	text-align: center;
+}
+
+li a {
+    display: ;
+    color: white;
+	background-color: rgb(254, 129, 0);
+    padding: 15px;
+	
+    text-decoration: none;
+}
+
+
+a:hover {
+	background-color: white;
+	color: rgb(254, 129, 0);
+}
+
+/* footer */
+footer {
+	background-color: rgb(254, 129, 0);
+	clear: both;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Banner */
+
+
+/* Content Display */
+#container {
+	background-color: rgb(204, 239, 255);
+	width: 960px;
+	height: ;
+	margin: 0px auto;
+}
+
+#left-column {
+	float: left;
+	width: 600px;
+	height: 600px;
+	background-color: rgb(204, 239, 255) ;
+}
+
+#right-column {
+	float: left;
+	background-color: white;
+	width: 300px;
+	height: auto;
+	background-color: rgb(204, 239, 255);
+}
+
+.menucontainer {
+	width: 80%;
+	height: 96%;
+	background: white;
+	padding: 10px;
+	overflow: hidden;
+	overflow-y: scroll;
+	z-index: -1;
+	
+}
+
+.sustainability {
+	border: 1px solid black;
+	
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+	
+
+@media screen and (max-width:959px) {
+	#container {
+		width: 100%;
+	}
+	#left-column {
+		width: 70%;
+	}
+	#right-column {
+		width: 30%;
+	}
+}
